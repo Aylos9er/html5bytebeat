@@ -1,0 +1,69 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Tree with Symbols
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+ </head>
+ <body class="bg-white flex justify-center items-center min-h-screen p-4">
+  <div class="relative max-w-[480px] w-full aspect-square border border-black" style="border-style: wavy;">
+   <!-- Center tree image -->
+   <img alt="Large tree with green leaves and brown trunk, shaped like a pyramid" class="absolute top-1/2 left-1/2 w-[320px] max-w-full -translate-x-1/2 -translate-y-1/2" height="400" src="https://storage.googleapis.com/a1aa/image/f4bbab7f-1321-4621-79b7-a4a082595e7c.jpg" width="400"/>
+   <!-- Top circle -->
+   <div class="absolute top-4 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-1">
+    <img alt="Blue sphere with white geometric lines inside" class="w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/a51773f0-05ff-41b1-0c40-e1a4b13129c4.jpg" width="64"/>
+    <p class="text-center text-[10px] leading-tight font-[cursive] select-none" style="line-height: 1;">
+     ᎠᏂᏴᏫᏯ
+    </p>
+   </div>
+   <!-- Left circle -->
+   <div class="absolute top-1/4 left-4 flex flex-col items-center space-y-1">
+    <img alt="Rainbow colored sphere with bright colors" class="w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/91be58b6-7d27-400f-22d6-aea3b2c43c07.jpg" width="64"/>
+    <p class="text-center text-[10px] leading-tight font-[cursive] select-none" style="line-height: 1;">
+     ᎠᏂᏴᏫᏯ ᎠᏂᏴᏫᏯ
+    </p>
+   </div>
+   <!-- Right circle -->
+   <div class="absolute top-1/4 right-4 flex flex-col items-center space-y-1 text-right">
+    <img alt="Sphere half gold and half black with geometric lines" class="w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/8cea77dd-2035-46c3-6475-50b2ae3d69c6.jpg" width="64"/>
+    <p class="text-[10px] leading-tight font-[cursive] select-none" style="line-height: 1;">
+     ᎠᏂᏴᏫᏯ ᎠᏂᏴᏫᏯ
+     <br/>
+     ᎠᏂᏴᏫᏯ
+    </p>
+   </div>
+   <!-- Bottom left circle -->
+   <div class="absolute bottom-8 left-8 flex flex-col items-center space-y-1">
+    <img alt="Gold colored sphere with geometric lines" class="w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/4f620ae9-3162-4e2d-2924-6c1cbee331c3.jpg" width="64"/>
+    <p class="text-center text-[10px] leading-tight font-[cursive] select-none" style="line-height: 1;">
+     ᎠᏂᏴᏫᏯ ᎠᏂᏴᏫᏯ
+    </p>
+   </div>
+   <!-- Bottom right circle -->
+   <div class="absolute bottom-8 right-8 flex flex-col items-center space-y-1">
+    <img alt="Green colored sphere with geometric lines" class="w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/768d3281-edba-463e-6aa7-72d3bbc74631.jpg" width="64"/>
+    <p class="text-center text-[10px] leading-tight font-[cursive] select-none" style="line-height: 1;">
+     ᎠᏂᏴᏫᏯ ᎠᏂᏴᏫᏯ
+    </p>
+   </div>
+   <!-- Lines connecting circles -->
+   <svg aria-hidden="true" class="absolute inset-0 w-full h-full" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <line stroke="black" stroke-width="1" x1="50%" x2="8%" y1="8%" y2="25%">
+    </line>
+    <line stroke="black" stroke-width="1" x1="50%" x2="92%" y1="8%" y2="25%">
+    </line>
+    <line stroke="black" stroke-width="1" x1="8%" x2="8%" y1="25%" y2="75%">
+    </line>
+    <line stroke="black" stroke-width="1" x1="92%" x2="92%" y1="25%" y2="75%">
+    </line>
+    <line stroke="black" stroke-width="1" x1="8%" x2="50%" y1="75%" y2="92%">
+    </line>
+    <line stroke="black" stroke-width="1" x1="92%" x2="50%" y1="75%" y2="92%">
+    </line>
+   </svg>
+  </div>
+ </body>
+</html>
